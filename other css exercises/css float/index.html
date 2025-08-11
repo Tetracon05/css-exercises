@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li style="float:right"><a href="#about">About</a></li>
+        </ul>
+
+
+        <div class="threeBoxes">box1</div>
+        <div class="threeBoxes">box2</div>
+        <div class="threeBoxes">box3</div>
+
+        <div class="twoBoxes">box4</div>
+        <div class="twoBoxes">box5</div>
+
+        <div class="fiveBoxes">box6</div>        
+        <div class="fiveBoxes">box7</div>
+        <div class="fiveBoxes">box8</div>    
+        <div class="fiveBoxes">box9</div>    
+        <div class="fiveBoxes">box10</div>    
+        
+        
+        <a href="https://www.youtube.com">youtube</a>
+
+        <style>
+/* Dropdown kapsayıcısı – mutlak pozisyonlama için relative */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown içeriği – başta gizli */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;                /* Menü sağ tarafa hizalanır */
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* içeriği oluşturan linkler */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* link hover efekti */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+
+    </body>
+</html>

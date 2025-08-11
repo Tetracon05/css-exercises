@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+.threeBoxes {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.twoBoxes {
+    float: left;
+    width: 50%;
+    padding: 50px;
+    background-color: rgb(174, 174, 174);
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.fiveBoxes {
+    float: left;
+    width: 20%;
+    padding: 50px;
+    background-color: rgb(102, 102, 102);
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* pseudo workout
+/* unvisited link */
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+
+ul {
+  list-style-type: none;    /* Madde işaretlerini kaldırır */
+  margin: 0;                 /* Varsayılan dış boşluğu sıfırlar */
+  padding: 0;                /* Varsayılan iç boşluğu sıfırlar */
+  overflow: hidden;          /* Taşan içerikleri gizler */
+  background-color: #333;    /* Koyu gri arka plan */
+}
+
+li {
+  float: left;               /* Liste öğelerini soldan yanaştırır (yanyana dizer) */
+}
+
+li a {
+  display: block;            /* Bağlantının blok seviyesinde görünmesini sağlar */
+  color: white;              /* Yazı rengini beyaz yapar */
+  text-align: center;        /* Yazıyı ortalar */
+  padding: 14px 16px;        /* Üst-alt ve yan boşluk ekler */
+  text-decoration: none;     /* Alt çizgiyi kaldırır */
+}
+
+/* Fareyle üzerine gelindiğinde arka plan renginin değişmesi */
+li a:hover {
+  background-color: #111;    /* Çok koyu gri */
+}

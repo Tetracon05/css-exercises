@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 sütun */
+  grid-template-rows: auto repeat(3, 100px); /* 4 satır: 1. satır auto yüksek, diğerleri 100px */
+  gap: 10px;
+  width: 100vw;
+  background-color: #2196F3; /* mavi zemin */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.item {
+  background-color: #eee;
+  border: 2px solid #2196F3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* 1 numaralı kutu tüm sütunları kaplar */
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+/* 8 numaralı kutu 1. sütun ve 4. satırda */
+.item8 {
+
+}
+
+/* 8 numarının sağındaki alan boş */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
